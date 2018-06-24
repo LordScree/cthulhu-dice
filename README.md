@@ -25,6 +25,11 @@ Each die has one of three possible outcomes when rolled:
  1. A Clue (Rc). It's not an Elder Sign, but at least it's not a TENTACLE! The player must re-roll this die if they choose to Continue to another round.
  1. TENTACLES (Rt)! Tentacles bad. If they player ever has 3 or more, they score 0 this round.
 
+The distribution of Re, Rc and Rt for each of the types of dice are, initially:
+ - Tl: Re: 3; Rc: 2; Rt: 1
+ - Tm: Re: 2; Rc: 2; Rt: 2
+ - Tt: Re: 1; Rc: 2; Rt: 3
+
 The player rolls their H dice and acts accordingly:
  - Any Elder Signs they get are added to a pool of Elder Signs (Pe).
  - Any TENTACLES they get are added to a pool of TENTACLES (Pt). If the player ever gets 3 (or more) TENTACLES, they are Downed. They score nothing this round and cannot Continue to another round.
