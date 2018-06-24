@@ -26,9 +26,9 @@ Each die has one of three possible outcomes when rolled:
  1. TENTACLES (Rt)! Tentacles bad. If they player ever has 3 or more, they score 0 this round.
 
 The distribution of Re, Rc and Rt for each of the types of dice are, initially:
- - Tl: Re: 3; Rc: 2; Rt: 1
- - Tm: Re: 2; Rc: 2; Rt: 2
- - Tt: Re: 1; Rc: 2; Rt: 3
+ - Yl: Re: 3; Rc: 2; Rt: 1
+ - Ym: Re: 2; Rc: 2; Rt: 2
+ - Yt: Re: 1; Rc: 2; Rt: 3
 
 The player rolls their H dice and acts accordingly:
  - Any Elder Signs they get are added to a pool of Elder Signs (Pe).
