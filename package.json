@@ -1,0 +1,30 @@
+{
+  "name": "cthulhu-dice",
+  "version": "1.0.0",
+  "description": "A simple node variant of a Zombie Dice game I played recently.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape /test/test-index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordScree/cthulhu-dice.git"
+  },
+  "keywords": [
+    "zombie",
+    "dice",
+    "cthulhu",
+    "game",
+    "chance",
+    "risk"
+  ],
+  "author": "Oliver Clare",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LordScree/cthulhu-dice/issues"
+  },
+  "homepage": "https://github.com/LordScree/cthulhu-dice#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
+}
