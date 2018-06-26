@@ -4,7 +4,7 @@
   "description": "A simple node variant of a Zombie Dice game I played recently.",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test-index.js"
+    "test": "./node_modules/.bin/multi-tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/LordScree/cthulhu-dice#readme",
   "devDependencies": {
+    "multi-tape": "^1.2.0",
     "tape": "^4.9.1"
   }
 }
