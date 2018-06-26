@@ -4,7 +4,7 @@
   "description": "A simple node variant of a Zombie Dice game I played recently.",
   "main": "index.js",
   "scripts": {
-    "test": "tape /test/test-index.js"
+    "test": "node test/test-index.js"
   },
   "repository": {
     "type": "git",
