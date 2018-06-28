@@ -1,31 +1,36 @@
-const test = require('tape')
-const player = require('../core/player')
+const test = require("tape");
+const Player = require("../core/player");
 
-test('Player has a property for getScore', function (t) {
-    t.plan(2)
+test("Player has a property for getScore", t => {
+    t.plan(2);
 
-    var p = new player()
-    t.true(p)
+    var p = new Player();
 
-    var actual = (typeof p.addToScore === 'function')
-    t.true(actual, 'Property called "getScore" expected. Actual: ' + actual.toString())
-})
+    t.true(p);
 
-test('Player has a function for addToScore', function (t) {
-    t.plan(3)
+    var actual = typeof p.addToScore === "function";
 
-    var p = new player()
-    var expected = 0
-    var actual = p.getScore()
-    t.equal(actual, expected, 'Expected score: ' + expected + '. Actual: ' + actual)
+    t.true(actual, `Property called 'getScore' expected. Actual: ${actual}`);
+});
 
-    p.addToScore(15)
-    expected = 15
-    actual = p.getScore()
-    t.equal(actual, expected, 'Expected score: ' + expected + '. Actual: ' + actual)
+function add(n, p, expected) {
+    p.addToScore(n);
 
-    p.addToScore(5)
-    expected = 20
-    actual = p.getScore()
-    t.equal(actual, expected, 'Expected score: ' + expected + '. Actual: ' + actual)
-})
+    return [p.getScore(), expected];
+}
+
+test("Player has a function for addToScore", t => {
+    t.plan(3);
+
+    var p = new Player();
+    var expected = 0;
+    var actual = p.getScore();
+
+    t.equal(actual, expected, `Expected score: ${expected}. Actual: ${actual}`);
+
+    [actual, expected] = add(15, p, 15);
+    t.equal(actual, expected, `Expected score: ${expected}. Actual: ${actual}`);
+
+    [actual, expected] = add(5, p, 20);
+    t.equal(actual, expected, `Expected score: ${expected}. Actual: ${actual}`);
+});

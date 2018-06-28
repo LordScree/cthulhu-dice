@@ -7,6 +7,12 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Test Settings",
+            "program": "${workspaceFolder}/test/test-settings.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Test Player",
             "program": "${workspaceFolder}/test/test-player.js"
         }
