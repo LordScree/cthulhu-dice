@@ -15,7 +15,7 @@ All dice have 6 sides.
 
 Each die has one of three possible outcomes when rolled:
  1. An Elder Sign, a mote of protection against the dark things that lurk. This is what the player wants and counts towards their possible score.
- 1. A Clue. It's not an Elder Sign, but at least it's not a TENTACLE! The player must re-roll this die if they choose to Continue to another round.
+ 1. A Clue. It's not an Elder Sign, but at least it's not a TENTACLE! The player must re-roll this die if they choose to _continue_ with their turn.
  1. TENTACLES! Tentacles bad. If they player ever has 3 or more, they score 0 this round.
 
 The distribution of results for each of the types of dice are:
@@ -25,7 +25,7 @@ The distribution of results for each of the types of dice are:
 
 The player rolls their 3 dice and acts accordingly:
  - Any Elder Signs they get are added to a stash of Elder Signs.
- - Any TENTACLES they get are added to a pool of TENTACLES. If the player ever gets 3 (or more) TENTACLES, they are "downed". They lose their stash this round and cannot _continue_ to another round.
+ - Any TENTACLES they get are added to a pool of TENTACLES. If the player ever gets 3 (or more) TENTACLES, they are "downed". They lose their stash for this turn and cannot _continue_ with their turn.
  - Any Clues they get remain in the player's hand. These are used again if the player chooses to _continue_ (see below).
 
 If the player has 2 or fewer TENTACLES, they now have a choice:
