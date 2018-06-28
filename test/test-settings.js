@@ -1,16 +1,17 @@
 const test = require("tape");
 const Settings = require("../core/settings");
 
-test("Default max hand size is applied", t => {
+test("Default max hand size is applied", assert => {
     var s = new Settings();
     var actual = s.maxHandSize();
     var expected = 3;
 
-    t.equal(actual, expected, `Max Hand Size expected: ${expected}, actual: ${actual}`);
-    t.end();
+    assert.equal(actual, expected, `Max Hand Size expected: ${expected}, actual: ${actual}`);
+
+    assert.end();
 });
 
-test("Default bag contains eight library dice", t => {
+test("Default bag contains eight library dice", assert => {
     var s = new Settings();
     var expected = 8;
     var actual = 0;
@@ -21,7 +22,7 @@ test("Default bag contains eight library dice", t => {
         }
     });
 
-    t.equal(actual, expected, `Library dice expected: ${expected}, actual: ${actual}`);
+    assert.equal(actual, expected, `Library dice expected: ${expected}, actual: ${actual}`);
 
-    t.end();
+    assert.end();
 });
